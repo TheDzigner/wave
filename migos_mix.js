@@ -56,43 +56,43 @@ const audio = [
   }
  , 
   {
-    audio_title : 'Top Down On da nawf', 
+    audio_title : 'Top Down On da Nawf', 
     audio_author : 'Migos', 
     audio_cover : '/wave_logo/wave.png', 
     audio_src : '/migos_mixe_audio/Migos - Top Down On Da NAWF .mp3', 
   }
  , 
   {
-    audio_title : 'avalanche', 
-    audio_author : 'migos', 
+    audio_title : 'Avalanche', 
+    audio_author : 'Migos', 
     audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
     audio_src : '/migos_mixe_audio/Migos_-_Avalanche_(Lyrics)(256k).mp3', 
   }
  , 
   {
-    audio_title : 'handle my business', 
-    audio_author : 'migos', 
+    audio_title : 'Handle My Business', 
+    audio_author : 'Migos', 
     audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
     audio_src : '/migos_mixe_audio/Migos_-_Handle_My_Business_(Official_Audio)(256k).mp3', 
   }
  , 
   {
-    audio_title : 'jane', 
-    audio_author : 'migos', 
+    audio_title : 'Jane', 
+    audio_author : 'Migos', 
     audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
     audio_src : '/migos_mixe_audio/Migos_-_Jane_(Official_Audio)(256k).mp3', 
   }
  , 
   {
-    audio_title : 'menace', 
-    audio_author : 'migos', 
+    audio_title : 'Menace', 
+    audio_author : 'Migos', 
     audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
     audio_src : '/migos_mixe_audio/Migos_-_Menace_(Official_Audio)_(Culture_3_Deluxe)(256k).mp3', 
   }
  , 
   {
-    audio_title : 'moderne day', 
-    audio_author : 'migos', 
+    audio_title : 'Moderne Day', 
+    audio_author : 'Migos', 
     audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
     audio_src:'/migos_mixe_audio/Migos_-_Modern_Day_(Official_Video)(256k).mp3'
   }
@@ -164,7 +164,7 @@ async function showaudio(arg) {
    if (SearchInput.value.length == 0) {
      showaudio()
    }
- const searchValue = SearchInput.value;
+ const searchValue = SearchInput.value.toLowerCase();
  for (const box of allCards) {
      if (box.dataset.id.toLowerCase().includes(searchValue)) {
        box.classList.remove('hide')
@@ -282,8 +282,11 @@ let i = 0
   mixe_wrapper_img.src = audio[i].audio_cover
   audioPlay.src = audio[i].audio_src 
   document.querySelector('.showPlayingWrapper').classList.add('active')
- 
+ document.title = `${audio[i].audio_title} / ${audio[i].audio_author}`
     audioPlay.play()
+    
+    
+    
     
     audioPlay.addEventListener('ended',function(){
       i++
