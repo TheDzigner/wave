@@ -45,7 +45,7 @@ const audio = [
   audio_title : 'Us vs Them', 
   audio_author : 'Quavo, Takeoff (Feat. Gucci Mane)', 
   audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
-  audio_src : '/migos_mixe_audio/- Quavo & Takeoff Ft. Gucci Mane - Us vs. Them (Official Video) (128 kbps).mp3', 
+  audio_src : '/migos_mixe_audio/Quavo & Takeoff Ft. Gucci Mane - Us vs. Them (Official Video) (128 kbps).mp3', 
   }
  , 
   {
