@@ -249,6 +249,7 @@ function playNext(index)
    showPlayingImg.src = audio[index].audio_cover
     audioPlay.src = audio[index].audio_src
    mixe_wrapper_img.src = audio[index].audio_cover
+      document.title = `${title_title} / ${author_author}`
     audioPlay.play()
     } else {
       index = 0 
@@ -257,6 +258,7 @@ function playNext(index)
    showPlayingImg.src = audio[index].audio_cover
     audioPlay.src = audio[index].audio_src
     mixe_wrapper_img.src = audio[index].audio_cover
+      document.title = `${title_title} / ${author_author}`
     audioPlay.play()
       
     }
