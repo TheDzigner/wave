@@ -51,11 +51,19 @@ header .logo img
   display :block ;
 }
 
-header .username h1
+header .username input
 {
   font-size:1em;
-  padding :10px ;
   color:#FFFFFF ;
+  background :transparent ;
+  border :1px solid transparent ;
+  width: 70%;
+  font-weight :700 ;
+  text-overflow :ellipsis ;
+  margin:0 3px 0;
+  padding :5px ;
+  outline :none ;
+  user-select: none;
 }
 
 header button 
