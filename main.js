@@ -13,13 +13,13 @@ let PlaylistRoot = ['migos-mix.html','quavo-mix.html','takoff-mix.html','offset-
 
 allAlbums.forEach(cardAlbum => {
   cardAlbum.addEventListener('click',function(){
-    window.open(albumRoots[allAlbums.indexOf(this)])
+    window.location.replace(albumRoots[allAlbums.indexOf(this)])
   })
 })
 
 allCards.forEach(cardplaylist => {
   cardplaylist.addEventListener('click',function(){
-    window.open(PlaylistRoot[allCards.indexOf(this)])
+    window.location.replace(PlaylistRoot[allCards.indexOf(this)])
   })
 })
 
@@ -42,36 +42,4 @@ function showUserName()
 }
 
 showUserName()
-
-
-window.addEventListener('beforeinstallprompt', (event) => {
-
-  event.preventDefault();
-
-  const promptEvent = event;
-
-  promptEvent.prompt();
-
-  promptEvent.userChoice.then((choiceResult) => {
-
-    if (choiceResult.outcome === 'accepted') {
-
-      console.log('User accepted the A2HS prompt');
-
-    } else {
-
-      console.log('User dismissed the A2HS prompt');
-
-    }
-
-    promptEvent = null;
-
-  });
-
-});
-
-
-
-
-
 
