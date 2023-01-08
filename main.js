@@ -43,3 +43,35 @@ function showUserName()
 
 showUserName()
 
+
+window.addEventListener('beforeinstallprompt', (event) => {
+
+  event.preventDefault();
+
+  const promptEvent = event;
+
+  promptEvent.prompt();
+
+  promptEvent.userChoice.then((choiceResult) => {
+
+    if (choiceResult.outcome === 'accepted') {
+
+      console.log('User accepted the A2HS prompt');
+
+    } else {
+
+      console.log('User dismissed the A2HS prompt');
+
+    }
+
+    promptEvent = null;
+
+  });
+
+});
+
+
+
+
+
+
