@@ -222,9 +222,6 @@ function playNext(index)
     showPlayingAuthor.innerHTML = audio[index].audio_author
    showPlayingImg.src = audio[index].audio_cover
     audioPlay.src = audio[index].audio_src
-      
-
-  document.title = `${audio[index].audio_title} / ${audio[index].audio_author`
     audioPlay.play()
     } else {
       index = 0 
@@ -232,7 +229,6 @@ function playNext(index)
     showPlayingAuthor.innerHTML = audio[index].audio_author
    showPlayingImg.src = audio[index].audio_cover
     audioPlay.src = audio[index].audio_src
-    document.title = `${audio[index].audio_title} / ${audio[index].audio_author`
     audioPlay.play()
       
     }
