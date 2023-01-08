@@ -85,7 +85,168 @@ const audio = [
     audio_author : 'migos', 
     audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
     audio_src:'/migos_mixe_audio/Migos_-_Modern_Day_(Official_Video)(256k).mp3'
+  }, {
+  audio_title : 'Us vs Them', 
+  audio_author : 'Quavo, Takeoff (Feat. Gucci Mane)', 
+  audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
+  audio_src : '/migos_mixe_audio/Quavo & Takeoff Ft. Gucci Mane - Us vs. Them (Official Video) (128 kbps).mp3', 
   }
+ , 
+  {
+    audio_title : 'T-Shirt', 
+    audio_author : 'Migos', 
+    audio_cover : '/wave_logo/wave.png', 
+    audio_src : '/migos_mixe_audio/Migos - T-Shirt.mp3', 
+  }
+ , 
+  {
+    audio_title : 'Top Down On da Nawf', 
+    audio_author : 'Migos', 
+    audio_cover : '/wave_logo/wave.png', 
+    audio_src : '/migos_mixe_audio/Migos - Top Down On Da NAWF .mp3', 
+  }
+ , 
+  {
+    audio_title : 'Avalanche', 
+    audio_author : 'Migos', 
+    audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
+    audio_src : '/migos_mixe_audio/Migos_-_Avalanche_(Lyrics)(256k).mp3', 
+  }
+ , 
+  {
+    audio_title : 'Handle My Business', 
+    audio_author : 'Migos', 
+    audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
+    audio_src : '/migos_mixe_audio/Migos_-_Handle_My_Business_(Official_Audio)(256k).mp3', 
+  }
+ , 
+  {
+    audio_title : 'Jane', 
+    audio_author : 'Migos', 
+    audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
+    audio_src : '/migos_mixe_audio/Migos_-_Jane_(Official_Audio)(256k).mp3', 
+  }
+ , 
+  {
+    audio_title : 'Menace', 
+    audio_author : 'Migos', 
+    audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
+    audio_src : '/migos_mixe_audio/Migos_-_Menace_(Official_Audio)_(Culture_3_Deluxe)(256k).mp3', 
+  }
+ , 
+  {
+    audio_title : 'Moderne Day', 
+    audio_author : 'Migos', 
+    audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
+    audio_src:'/migos_mixe_audio/Migos_-_Modern_Day_(Official_Video)(256k).mp3'
+  }
+ , {
+  audio_title : 'Pussy & Millions', 
+  audio_author : 'Drake, 21 Savage (Feat. Travis Scott)', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake & 21 Savage - Pussy & Millions ft. Travis Scott.mp3', 
+  }
+ , 
+{
+  audio_title : 'I Guess It\'s Fuck Me', 
+  audio_author : 'Drake', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake - I Guess It’s Fuck Me.mp3', 
+  }
+ , 
+ {
+  audio_title : 'Middle Of The Ocean', 
+  audio_author : 'Drake', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake - Middle of the Ocean.mp3', 
+  }
+ , 
+ {
+  audio_title : 'Treacherous Twins', 
+  audio_author : 'Drake & 21 Savage', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake, 21 Savage - Treacherous Twins.mp3', 
+  }
+ , 
+ {
+  audio_title : 'Major Distribution', 
+  audio_author : 'Drake & 21 Savage', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake, 21 Savage - Major Distribution.mp3', 
+  }
+ , 
+ {
+  audio_title : 'Broke Boys', 
+  audio_author : 'Drake & 21 Savage', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake, 21 Savage - Broke Boys.mp3', 
+  }
+ , {
+  audio_title : 'Hours In Silence', 
+  audio_author : 'Drake & 21 Savage', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake, 21 Savage - Hours In Silence.mp3', 
+  }
+ , 
+ {
+  audio_title : 'Privileged Rappers', 
+  audio_author : 'Drake & 21 Savage', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake, 21 Savage - Privileged Rappers.mp3', 
+  }
+ , {
+  audio_title : '3AM On Glenwood', 
+  audio_author : '21 Savage', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/ 21 Savage - 3AM on Glenwood.mp3', 
+  }
+ , 
+ {
+  audio_title : 'Circo Loco', 
+  audio_author : 'Drake & 21 Savage', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake, 21 Savage - Circo Loco.mp3', 
+  }
+ , {
+  audio_title : 'Spin Bout U', 
+  audio_author : 'Drake & 21 Savage', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake, 21 Savage - Spin Bout U.mp3', 
+  }
+ , 
+ {
+  audio_title : 'Jumbotron', 
+  audio_author : 'Drake', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake - Jumbotron Shit Poppin.mp3', 
+  }
+ , {
+  audio_title : 'More M\'S ', 
+  audio_author : 'Drake & 21 Savage', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake, 21 Savage - More M’s.mp3', 
+  }
+ , 
+ {
+  audio_title : 'Rich Flex', 
+  audio_author : 'Drake & 21 Savage', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake, 21 Savage - Rich Flex.mp3', 
+  }
+ , {
+  audio_title : 'On Bs', 
+  audio_author : 'Drake & 21 Savage', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake, 21 Savage - On BS.mp3', 
+  }
+ , 
+ {
+  audio_title : 'BackOutSideBoyz', 
+  audio_author : 'Drake', 
+  audio_cover : '/trending_albums_cover/her_lost_cover.jpeg', 
+  audio_src : '/her_lost_audio/drake - BackOutsideBoyz.mp3', 
+  }
+ ,  
   
   ]
 
