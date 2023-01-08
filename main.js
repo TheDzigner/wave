@@ -1,9 +1,23 @@
 const allCards = 
-document.querySelectorAll('.wrapper .card__')
+Array.from(document.querySelectorAll('.wrapper .card__'))
+
+const allAlbums =
+Array.from(document.querySelectorAll('.album_wrapper .album_card')
+)
+let albumRoots = ['/culture 3.html','/Only_Built_for_Infinity_Links.html','/god did.html','/her lost.html']
 
 
-allCards[0].addEventListener('click',function(){
-  window.open('/migos-mix.html') 
+let PlaylistRoot = ['migos-mix.html','quavo-mix.html','takoff-mix.html','offset-mix.html','lil-baby-mix.html']
+
+
+allAlbums.forEach(cardAlbum => {
+  cardAlbum.addEventListener('click',function(){
+    window.open(albumRoots[allAlbums.indexOf(this)])
+  })
 })
 
-
+allCards.forEach(cardplaylist => {
+  cardplaylist.addEventListener('click',function(){
+    window.open(PlaylistRoot[allCards.indexOf(this)])
+  })
+})
