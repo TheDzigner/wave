@@ -92,11 +92,11 @@ async function showFav() {
      e.stopImmediatePropagation();
      e.stopPropagation();
      
-    playAudio(getFavFromLocal[allCards.indexOf(this)].audio_title,getFavFromLocal[allCards.indexOf(this)].audio_author, getFavFromLocal[allCards.indexOf(this)].audio_src,getFavFromLocal[allCards.indexOf(this)].audio_cover)
+    playAudio(getFavFromLocal[allCards.indexOf(this)].audio_title,getFavFromLocal[allCards.indexOf(this)].audio_author, getFavFromLocal[allCards.indexOf(this)].audio_src,getFavFromLocal[allCards.indexOf(this)].audio_cover,)
     
       playNext(allCards.indexOf(this))
       
-      
+     
       
     })
     
@@ -153,13 +153,13 @@ document.querySelector('.feedback_wrapper').classList.remove('active');
 
 
 
-async function playAudio(title,author,src,cover,title_title,author_author)
+async function playAudio(title,author,src,cover)
 {
   showPlayingTitle.innerHTML = title 
   showPlayingAuthor.innerHTML = author
   showPlayingImg.src = cover
   audioPlay.src = src 
-  document.title = `${title_title} / ${author_author}`
+  document.title = `${title} / ${author}`
   
   document.querySelector('.showPlayingWrapper').classList.add('active')
  audioPlay.play()
@@ -189,6 +189,8 @@ function playNext(index)
     showPlayingAuthor.innerHTML = getFavFromLocal[index].audio_author
    showPlayingImg.src = getFavFromLocal[index].audio_cover
     audioPlay.src = getFavFromLocal[index].audio_src
+    document.title = `${getFavFromLocal[index].audio_title } / ${getFavFromLocal[index].audio_author}`
+    
     audioPlay.play()
     } else {
       index = 0 
@@ -196,6 +198,8 @@ function playNext(index)
     showPlayingAuthor.innerHTML = getFavFromLocal[index].audio_author
    showPlayingImg.src = getFavFromLocal[index].audio_cover
     audioPlay.src = getFavFromLocal[index].audio_src
+   document.title = `${getFavFromLocal[index].audio_title } / ${getFavFromLocal[index].audio_author}`
+
     audioPlay.play()
       
     }
@@ -210,11 +214,11 @@ let i = 0
   {
     playAll_btn.innerHTML = 'restart_alt'
      playState.innerHTML = 'pause_circle'
-    showPlayingTitle.innerHTML = getFavFromLocal[0].audio_title  
-  showPlayingAuthor.innerHTML = getFavFromLocal[0].audio_author
-  showPlayingImg.src = getFavFromLocal[0].audio_cover
-  audioPlay.src = getFavFromLocal[0].audio_src
-   document.title = `${getFavFromLocal[0].audio_title} / ${getFavFromLocal[0].audio_author}`
+    showPlayingTitle.innerHTML = getFavFromLocal[i].audio_title  
+  showPlayingAuthor.innerHTML = getFavFromLocal[i].audio_author
+  showPlayingImg.src = getFavFromLocal[i].audio_cover
+  audioPlay.src = getFavFromLocal[i].audio_src
+   document.title = `${getFavFromLocal[i].audio_title} / ${getFavFromLocal[i].audio_author}`
 
   document.querySelector('.showPlayingWrapper').classList.add('active')
  
