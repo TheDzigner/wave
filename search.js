@@ -250,7 +250,7 @@ const audio = [
  {
   audio_title : 'Rooster', 
   audio_author : 'Offset', 
-  audio_cover : '/playlist_logo/offset_mix_img.png', 
+  audio_cover : '/wave_logo/wave.png', 
   audio_src : '/offset_mix_audio/Rooster- Offset.mp3', 
   }
  ,  
