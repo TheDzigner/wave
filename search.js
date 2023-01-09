@@ -247,6 +247,13 @@ const audio = [
   audio_src : '/her_lost_audio/drake - BackOutsideBoyz.mp3', 
   }
  ,  
+ {
+  audio_title : 'Rooster', 
+  audio_author : 'Offset', 
+  audio_cover : '/playlist_logo/offset_mix_img.png', 
+  audio_src : '/offset_mix_audio/Rooster- Offset.mp3', 
+  }
+ ,  
   
   ]
 

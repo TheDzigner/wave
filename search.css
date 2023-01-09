@@ -21,7 +21,7 @@ header
   text-align :left ;
   padding :15px ;
   position :fixed;
-  top: 10px;
+  top: 0;
   left :0;
   z-index :10;
   background : #252525 ;
