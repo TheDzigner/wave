@@ -220,16 +220,34 @@ let i = 0
  
     audioPlay.play()
     
-    audioPlay.addEventListener('ended',function(){
-      i++
+  audioPlay.addEventListener('ended',function(){
+    if (i < getFavFromLocal.length - 1) {
+          i++
     showPlayingTitle.innerHTML = getFavFromLocal[i].audio_title 
+    
     showPlayingAuthor.innerHTML = getFavFromLocal[i].audio_author
+    
    showPlayingImg.src = getFavFromLocal[i].audio_cover
+   
+    audioPlay.src = getFavFromLocal[i].audio_src
+    
+    document.title = `${getFavFromLocal[i].audio_title} / ${getFavFromLocal[i].audio_author}`
+
+    audioPlay.play()
+    } else {
+      i = 0 
+      showPlayingTitle.innerHTML = getFavFromLocal[i].audio_title 
+      
+    showPlayingAuthor.innerHTML = getFavFromLocal[i].audio_author
+    
+   showPlayingImg.src = getFavFromLocal[i].audio_cover
+   
     audioPlay.src = getFavFromLocal[i].audio_src
     document.title = `${getFavFromLocal[i].audio_title} / ${getFavFromLocal[i].audio_author}`
 
     audioPlay.play()
-    
+      
+    }
   })
   
     
