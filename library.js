@@ -189,7 +189,6 @@ function playNext(index)
     showPlayingAuthor.innerHTML = getFavFromLocal[index].audio_author
    showPlayingImg.src = getFavFromLocal[index].audio_cover
     audioPlay.src = getFavFromLocal[index].audio_src
-      document.title = `${getFavFromLocal[0].audio_title} / ${getFavFromLocal[0].audio_author}`
     audioPlay.play()
     } else {
       index = 0 
@@ -197,7 +196,6 @@ function playNext(index)
     showPlayingAuthor.innerHTML = getFavFromLocal[index].audio_author
    showPlayingImg.src = getFavFromLocal[index].audio_cover
     audioPlay.src = getFavFromLocal[index].audio_src
-     document.title = `${getFavFromLocal[0].audio_title} / ${getFavFromLocal[0].audio_author}`
     audioPlay.play()
       
     }
