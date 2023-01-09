@@ -42,67 +42,136 @@ const addLibrary = JSON.parse(localStorage.getItem('myLibrary') || '[]')
 
 const audio = [
   {
-  audio_title : 'Us vs Them', 
-  audio_author : 'Quavo, Takeoff (Feat. Gucci Mane)', 
-  audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
-  audio_src : '/migos_mixe_audio/Quavo & Takeoff Ft. Gucci Mane - Us vs. Them (Official Video) (128 kbps).mp3', 
+  audio_title : 'Transporter', 
+  audio_author : 'Lil Baby (Feat. Offset)', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/ Lil Baby - Transporter Ft. Offset.mp3', 
+  }
+ , {
+  audio_title : 'Clout', 
+  audio_author : 'Offset (Feat. Cardi B)', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/ Offset - Clout ft. Cardi B.mp3', 
   }
  , 
   {
-    audio_title : 'T-Shirt', 
-    audio_author : 'Migos', 
-    audio_cover : '/wave_logo/wave.png', 
-    audio_src : '/migos_mixe_audio/Migos - T-Shirt.mp3', 
+  audio_title : 'Menace', 
+  audio_author : 'Lil Yachty, Quavo, Offset', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/ Quality Control - Menace  ft. Lil Yachty, Quavo, Offset.mp3', 
   }
  , 
   {
-    audio_title : 'Top Down On da Nawf', 
-    audio_author : 'Migos', 
-    audio_cover : '/wave_logo/wave.png', 
-    audio_src : '/migos_mixe_audio/Migos - Top Down On Da NAWF .mp3', 
+  audio_title : 'Balenciaga Challenge', 
+  audio_author : '6Lack (Feat. Offset)', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/6LACK - Balenciaga Challenge Ft. Offset.mp3', 
+  }
+ , {
+  audio_title : 'Lick', 
+  audio_author : 'Cardi B (Feat. Offset)', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/Cardi B Feat. Offset _Lick.mp3', 
+  }
+ ,
+ {
+  audio_title : 'Baby Sitter', 
+  audio_author : 'DaBaby (Feat. Offset)', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/DaBaby - Baby Sitter ft. Offset.mp3', 
   }
  , 
-  {
-    audio_title : 'Avalanche', 
-    audio_author : 'Migos', 
-    audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
-    audio_src : '/migos_mixe_audio/Migos_-_Avalanche_(Lyrics)(256k).mp3', 
+ {
+  audio_title : 'Dubai Shit', 
+  audio_author : 'Travis Scott, Quavo (Feat. Offset)', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/HUNCHO JACK, Travis Scott, Quavo - Dubai Shit.mp3', 
   }
  , 
-  {
-    audio_title : 'Handle My Business', 
-    audio_author : 'Migos', 
-    audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
-    audio_src : '/migos_mixe_audio/Migos_-_Handle_My_Business_(Official_Audio)(256k).mp3', 
+ {
+  audio_title : 'Had Enough', 
+  audio_author : 'JACKBOYS Don Toliver (Feat. Quavo, Offset)', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/JACKBOYS Don Toliver - Had Enough (Feat. Quavo & Offset).mp3', 
+  }
+ , {
+  audio_title : 'Quicker', 
+  audio_author : 'Jay Critch (Feat. Offset)', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/Jay Critch - Quicker  ft. Offset.mp3', 
+  }
+ , {
+  audio_title : 'ZEZE', 
+  audio_author : 'Kodak Black (Feat. Travis Scott, Offset)', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/Kodak Black - ZEZE (feat. Travis Scott & Offset).mp3', 
+  }
+ , {
+  audio_title : 'Run It Up', 
+  audio_author : 'Lil Tjay (Feat. Offset, Moneybagg Yo)', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/Lil Tjay - Run It Up ft. Offset, Moneybagg Yo.mp3', 
+  }
+ , {
+  audio_title : 'DipSet', 
+  audio_author : 'Lil Yachty (Feat. Offset)', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/Lil Yachty - DipSet (feat. Offset).mp3', 
+  }
+ , {
+  audio_title : 'Menase (2)', 
+  audio_author : 'Lil Yachty, Quavo, Offset', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/Lil Yachty, Quavo & Offset - Menace.mp3', 
+  }
+ , {
+  audio_title : 'Bad And Boujee', 
+  audio_author : 'Migos (Feat. Lil Uzi Vert)', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/Migos - Bad and Boujee ft Lil Uzi Vert.mp3', 
+  }
+ , {
+  audio_title : 'Keys', 
+  audio_author : 'No Plug (Feat. Offset)', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/No Plug Feat. Offset _Keys.mp3', 
+  }
+ , {
+  audio_title : 'Ric Flair Drip', 
+  audio_author : 'Offset & Metro Boomin', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/Offset & Metro Boomin  Ric Flair Drip.mp3', 
+  }
+ , {
+  audio_title : '54321', 
+  audio_author : 'Offset', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/Offset - 5 4 3 2 1.mp3', 
+  }
+ , {
+  audio_title : 'Lick', 
+  audio_author : 'Offset', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/Offset - Lick.mp3', 
+  }
+ , {
+  audio_title : 'Quarter Milli', 
+  audio_author : 'Offset (Feat. Gucci Mane)', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/Offset - Quarter Milli ft. Gucci Mane.mp3', 
+  }
+ , {
+  audio_title : 'Rooster', 
+  audio_author : 'Offset', 
+  audio_cover : '/offset_mix_audio/offset-mix-cover.png', 
+  audio_src : '/offset_mix_audio/Rooster- Offset.mp3', 
   }
  , 
-  {
-    audio_title : 'Jane', 
-    audio_author : 'Migos', 
-    audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
-    audio_src : '/migos_mixe_audio/Migos_-_Jane_(Official_Audio)(256k).mp3', 
-  }
- , 
-  {
-    audio_title : 'Menace', 
-    audio_author : 'Migos', 
-    audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
-    audio_src : '/migos_mixe_audio/Migos_-_Menace_(Official_Audio)_(Culture_3_Deluxe)(256k).mp3', 
-  }
- , 
-  {
-    audio_title : 'Moderne Day', 
-    audio_author : 'Migos', 
-    audio_cover : '/trending_albums_cover/Culture-3-cover.jpeg', 
-    audio_src:'/migos_mixe_audio/Migos_-_Modern_Day_(Official_Video)(256k).mp3'
-  }
-  
   ]
-
 
 const data = {
   title: `playlist by Wave ${audio.length} songs`,
-  text: 'Give this playlist a listen /Migos mix',
+  text: 'Give this playlist a listen /Offset mix',
   url: location.href
 }
 
@@ -181,7 +250,7 @@ async function showaudio(arg) {
 Array.from(document.querySelectorAll('.favorite'))
 
   allFavBtn.forEach(favbtn =>{
-   favbtn.addEventListener('Click',function(e){
+   favbtn.addEventListener('click',function(e){
      e.preventDefault();
      e.stopImmediatePropagation();
      e.stopPropagation();
@@ -219,14 +288,14 @@ document.querySelector('.feedback_wrapper').classList.remove('active');
 
 
 
-async function playAudio(title,author,src,cover) {
+async function playAudio(title,author,src,cover,title_title,author_author) {
 {
   showPlayingTitle.innerHTML = title 
   showPlayingAuthor.innerHTML = author
   showPlayingImg.src = cover
   audioPlay.src = src 
   mixe_wrapper_img.src = cover
-  document.title = `${title} / ${author}`
+  document.title = `${title_title} / ${author_author}`
    audioPlay.play();
 
   document.querySelector('.showPlayingWrapper').classList.add('active')
